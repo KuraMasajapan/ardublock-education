@@ -1,6 +1,7 @@
-ArduBlock
+ArduBlock　Education Edition
 ======
 
+v0.1.0-alpha
 ArduBlock is a Block Programming Language for Arduino. The language and functions model closely to [Arduino Language Reference](http://arduino.cc/en/Reference/HomePage)
 
 Installation
