@@ -1,23 +1,22 @@
 # Roadmap
 
-## Version 0.1
+## v0.1.0-alpha
 
-- Better Japanese translation
-- Project cleanup
-- Better README
-- Better documentation
-
----
-
-## Version 0.2
-
-- UI redesign
-- Better icons
-- Scratch-like colors
+- Documentation
+- Japanese Translation
+- UI Improvements
 
 ---
 
-## Version 0.3
+## v0.2.0-alpha
+
+- Modern Icons
+- Better Category Layout
+- Improved Block Labels
+
+---
+
+## v0.3.0-alpha
 
 - OLED Blocks
 - Servo Blocks
@@ -25,13 +24,6 @@
 
 ---
 
-## Version 0.5
-
-- Example Gallery
-- Tutorial
-
----
-
-## Version 1.0
+## v1.0.0
 
 First Stable Release
