@@ -22,3 +22,33 @@ ardublock-education
 Action
 
 Create New Files
+
+
+==========================================================
+Commit : 0005
+Branch : develop
+Type   : analysis
+==========================================================
+
+Commit Message
+
+chore(ui): identify main UI implementation class
+
+Description
+
+・ArduBlockToolFrameを解析
+・UI本体がOpenblocksFrame.javaにあることを確認
+・今後のUI改修対象を決定
+
+Files
+
+なし（解析のみ）
+
+Result
+
+UIの実装クラスは
+src/main/java/com/ardublock/ui/OpenblocksFrame.java
+
+Next
+
+Commit0006
