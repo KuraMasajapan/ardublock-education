@@ -1,1 +1,24 @@
+==========================================================
+Commit : 0004
+Branch : develop
+Type   : docs
+==========================================================
 
+Commit Message
+
+docs: initialize documentation structure
+
+Tree
+
+ardublock-education
+│
+├── docs
+│   ├── CHANGELOG.md
+│   ├── roadmap.md
+│   └── style-guide.md
+│
+└── README.md（次回）
+
+Action
+
+Create New Files
