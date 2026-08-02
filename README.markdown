@@ -4,6 +4,12 @@ ArduBlock　Education Edition
 v0.1.0-alpha
 ArduBlock is a Block Programming Language for Arduino. The language and functions model closely to [Arduino Language Reference](http://arduino.cc/en/Reference/HomePage)
 
+ArduBlock Education は、Arduino IDE 1.8系向けに開発された教育用ビジュアルプログラミング環境です。
+
+小学生から大人まで、Scratchのような分かりやすい操作でArduinoプログラミングを学べることを目標としています。
+
+本プロジェクトは既存のArduBlockをベースに、UI・翻訳・教育向けブロック・ハードウェア対応を改善し、オープンソースとして継続的に発展させます。
+
 Installation
 ----
 The project is managed by Maven. After checking out the source for the first time, one should run the following to install Arduino's pde.jar into the local repository. 
