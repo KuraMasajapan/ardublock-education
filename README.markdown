@@ -1,70 +1,78 @@
-ArduBlock　Education Edition
-======
+# ArduBlock Education Edition
 
-v0.1.0-alpha
-ArduBlock is a Block Programming Language for Arduino. The language and functions model closely to [Arduino Language Reference](http://arduino.cc/en/Reference/HomePage)
+> A modern educational visual programming environment for Arduino IDE 1.8.x
 
-ArduBlock Education は、Arduino IDE 1.8系向けに開発された教育用ビジュアルプログラミング環境です。
+![Status](https://img.shields.io/badge/status-alpha-orange)
+![License](https://img.shields.io/badge/license-GPL-blue)
 
-小学生から大人まで、Scratchのような分かりやすい操作でArduinoプログラミングを学べることを目標としています。
+---
 
-本プロジェクトは既存のArduBlockをベースに、UI・翻訳・教育向けブロック・ハードウェア対応を改善し、オープンソースとして継続的に発展させます。
+## Overview
 
-Installation
-----
-The project is managed by Maven. After checking out the source for the first time, one should run the following to install Arduino's pde.jar into the local repository. 
+ArduBlock Education Edition is a modern fork of the classic ArduBlock project.
 
-	$ mvn validate
+The goal is simple:
 
-Usage
-----
+- Easy enough for elementary school students.
+- Powerful enough for makers and teachers.
+- Compatible with Arduino IDE 1.8.x.
+- Open Source and community driven.
 
-	$ mvn exec:java -Dexec.mainClass="com.ardublock.Main"
+---
 
-Development
-----
-Change the /src/main/resources/com/ardublock/block/ardublock_def.xml to add new blocks to ArduBlock
+## Features
 
-	$ mvn clean package
+- 🎓 Education First
+- 🌏 Better Japanese translation
+- 🎨 Modern UI
+- 🧩 Easy block categories
+- 💡 Arduino standard support
+- 🚀 UIAPduino support
+- 📦 Extensible block library
 
-	$ mvn compile exec:java -Dexec.mainClass="com.ardublock.Main"
+---
 
-The Visual Block environment should show up. Happy Hacking! ;) 
+## Supported Boards
 
-Deploy
-----
-Edit code of ardublock
+- Arduino UNO
+- Arduino Nano
+- Arduino Mega
+- UIAPduino (planned)
+- Compatible boards
 
-	$ mvn clean package
+---
 
-copy the target/ardublock-all.jar to Arduino\tools\ArduBlockTool\tool
+## Roadmap
 
-Authors
-----
-* David Li taweili@gmail.com
-* HE Qichen heqichen@gmail.com
+### Version 0.1
 
+- Better translations
+- Modern icons
+- Education categories
+- Documentation
 
-ToDo
-----
-* Integrate the [scripting engine](http://java.sun.com/developer/technicalArticles/J2SE/Desktop/scripting/) into the language blocks for code generation
+### Version 0.2
 
-License
-----
+- OLED
+- NeoPixel
+- LCD1602
+- Servo improvements
 
-Copyright (C) 2011 David Li and He Qichen
+### Version 1.0
 
-This file is part of ArduBlock.
+First Stable Release
 
-ArduBlock is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+---
 
-ArduBlock is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+## Philosophy
 
-You should have received a copy of the GNU General Public License
-along with ArduBlock.  If not, see <http://www.gnu.org/licenses/>.
+Learning comes first.
+
+The interface should help children understand programming,
+instead of simply generating Arduino code.
+
+---
+
+## License
+
+GPL v2
